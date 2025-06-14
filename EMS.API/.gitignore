@@ -1,0 +1,20 @@
+# Ignore Visual Studio temporary files
+.vs/
+*.user
+*.suo
+
+# Build results
+bin/
+obj/
+
+# Ignore Rider IDE files (if used)
+.idea/
+
+# Ignore compiled files
+*.dll
+*.exe
+*.pdb
+
+# Others (optional)
+*.log
+*.cache

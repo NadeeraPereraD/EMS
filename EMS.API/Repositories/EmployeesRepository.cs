@@ -63,7 +63,7 @@ namespace EMS.API.Repositories
 
             return (employee, errorMsg, successMsg);
         }
-        public async Task<(Employee? Entity, string? ErrorMessage, string? SuccessMessage)> GetByKeyAsync(string name)
+        public async Task<(Employee? Entity, string? ErrorMessage, string? SuccessMessage)> GetByKeyAsync(int Id)
         {
             Employee? entity = null;
             string? error = null,
@@ -73,7 +73,7 @@ namespace EMS.API.Repositories
             using var cmd = conn.CreateCommand();
             cmd.CommandText = "usp_Employees_GetByCode";
             cmd.CommandType = CommandType.StoredProcedure;
-            cmd.Parameters.Add(new SqlParameter("@name", name));
+            cmd.Parameters.Add(new SqlParameter("@Id", Id));
 
             var pError = new SqlParameter("@ErrorMessage", SqlDbType.NVarChar, 500) { Direction = ParameterDirection.Output };
             var pSuccess = new SqlParameter("@SuccessMessage", SqlDbType.NVarChar, 500) { Direction = ParameterDirection.Output };
@@ -101,7 +101,7 @@ namespace EMS.API.Repositories
             success = pSuccess.Value as string;
             return (entity, error, success);
         }
-        public async Task<(bool IsSuccess, string? ErrorMessage, string? SuccessMessage)> UpdateByKeyAsync(EmployeesCreateDto dto)
+        public async Task<(bool IsSuccess, string? ErrorMessage, string? SuccessMessage)> UpdateByKeyAsync(EmployeesUpdateDto dto)
         {
             var conn = _context.Database.GetDbConnection();
             if (conn.State != ConnectionState.Open)
@@ -110,6 +110,7 @@ namespace EMS.API.Repositories
             await using var cmd = conn.CreateCommand();
             cmd.CommandText = "usp_Employees_Update";
             cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.Add(new Microsoft.Data.SqlClient.SqlParameter("@Id", dto.Id));
             cmd.Parameters.Add(new Microsoft.Data.SqlClient.SqlParameter("@name", dto.name));
             cmd.Parameters.Add(new Microsoft.Data.SqlClient.SqlParameter("@email", dto.email));
             cmd.Parameters.Add(new Microsoft.Data.SqlClient.SqlParameter("@jobPosition", dto.jobPosition));
@@ -141,8 +142,7 @@ namespace EMS.API.Repositories
             await using var cmd = conn.CreateCommand();
             cmd.CommandText = "usp_Employees_SoftDelete";
             cmd.CommandType = CommandType.StoredProcedure;
-            cmd.Parameters.Add(new Microsoft.Data.SqlClient.SqlParameter("@name", dto.name));
-            cmd.Parameters.Add(new Microsoft.Data.SqlClient.SqlParameter("@isActive", dto.isActive));
+            cmd.Parameters.Add(new Microsoft.Data.SqlClient.SqlParameter("@Id", dto.Id));
 
             var pError = new Microsoft.Data.SqlClient.SqlParameter("@ErrorMessage", SqlDbType.NVarChar, 500)
             {

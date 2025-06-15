@@ -2,7 +2,7 @@
 {
     public class EmployeesSoftDeleteDto
     {
-        public string name { get; set; } = null!;
-        public bool? isActive {  get; set; }
+        public int Id { get; set; }
+
     }
 }

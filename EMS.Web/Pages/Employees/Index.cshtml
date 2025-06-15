@@ -1,0 +1,16 @@
+﻿@page
+@model Employees.IndexModel
+@{
+    ViewData["Title"] = "Employees";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Employees</h1>
+</div>
+
+<partial name="_ModalsPartial" />
+<partial name="_EmployeeListPartial" />
+
+@section Scripts {
+    <script src="~/js/employees.js"></script>
+}

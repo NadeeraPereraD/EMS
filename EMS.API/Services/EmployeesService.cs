@@ -22,7 +22,7 @@ namespace EMS.API.Services
             => _repository.GetAllAsync();
         public async Task<EmployeesResponseDto> GetEmployeeAsync(EmployeesRequestDto request)
         {
-            var (entity, error, success) = await _repository.GetByKeyAsync(request.name);
+            var (entity, error, success) = await _repository.GetByKeyAsync(request.Id);
             var dto = entity is not null ? _mapper.Map<EmployeesDto>(entity) : null;
             return new EmployeesResponseDto
             {
@@ -31,7 +31,7 @@ namespace EMS.API.Services
                 SuccessMessage = success
             };
         }
-        public async Task<(bool IsSuccess, string? ErrorMessage, string? SuccessMessage)> UpdateAsyncByID(EmployeesCreateDto dto)
+        public async Task<(bool IsSuccess, string? ErrorMessage, string? SuccessMessage)> UpdateAsyncByID(EmployeesUpdateDto dto)
             => await _repository.UpdateByKeyAsync(dto);
         public async Task<(bool IsSuccess, string? ErrorMessage, string? SuccessMessage)> SoftDeleteByID(EmployeesSoftDeleteDto dto)
             => await _repository.SoftDeleteByName(dto);

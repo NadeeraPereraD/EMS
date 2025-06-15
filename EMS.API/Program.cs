@@ -17,6 +17,11 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))
 );
+builder.Services.AddHttpClient("EMSAPI", client =>
+{
+    client.BaseAddress = new Uri(builder.Configuration["ApiBaseUrl"]);
+});
+
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAllOrigins", builder =>
@@ -29,7 +34,8 @@ builder.Services.AddCors(options =>
 
 builder.Services.AddScoped<IEmployeesService, EmployeesService>();
 builder.Services.AddScoped<IEmployeesRepository, EmployeesRepository>();
-
+builder.Services.AddScoped<IWorkingDaysService, WorkingDaysService>();
+builder.Services.AddScoped<IWorkingDaysRepository, WorkingDaysRepository>();
 
 var app = builder.Build();
 

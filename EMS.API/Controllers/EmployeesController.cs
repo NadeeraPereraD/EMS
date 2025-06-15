@@ -51,8 +51,8 @@ namespace EMS.API.Controllers
         [HttpPost("by-key")]
         public async Task<IActionResult> GetByKey([FromBody] EmployeesRequestDto request)
         {
-            if (request == null || string.IsNullOrEmpty(request.name))
-                return BadRequest(new { message = "Employee name is required in the request body." });
+            if (request == null ||request.Id == 0)
+                return BadRequest(new { message = "Employee Id is required in the request body." });
 
             var result = await _employeesService.GetEmployeeAsync(request);
             if (!string.IsNullOrEmpty(result.ErrorMessage))
@@ -62,7 +62,7 @@ namespace EMS.API.Controllers
         }
 
         [HttpPut("by-key")]
-        public async Task<IActionResult> UpdateByKey([FromBody] EmployeesCreateDto dto)
+        public async Task<IActionResult> UpdateByKey([FromBody] EmployeesUpdateDto dto)
         {
             if (dto == null || string.IsNullOrEmpty(dto.name))
                 return BadRequest(new { message = "Employee name is required in the request body." });
@@ -81,8 +81,8 @@ namespace EMS.API.Controllers
         [HttpPut("soft-delete-by-key")]
         public async Task<IActionResult> SoftDeleteByCode([FromBody] EmployeesSoftDeleteDto dto)
         {
-            if (dto == null || string.IsNullOrEmpty(dto.name))
-                return BadRequest(new { message = "Employee name is required in the request body." });
+            if (dto == null || dto.Id == 0)
+                return BadRequest(new { message = "Id is required in the request body." });
             var result = await _employeesService.SoftDeleteByID(dto);
             bool ok = result.IsSuccess;
             string? error = result.ErrorMessage;

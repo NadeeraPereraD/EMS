@@ -2,6 +2,6 @@
 {
     public class EmployeesRequestDto
     {
-        public string name { get; set; } = null!;
+        public int Id { get; set; }
     }
 }

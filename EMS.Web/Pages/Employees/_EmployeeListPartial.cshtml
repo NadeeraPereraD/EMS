@@ -1,0 +1,38 @@
+﻿@* Pages/Employees/_EmployeeListPartial.cshtml *@
+
+
+<!-- Form fields for name, email, jobPosition -->
+<form id="employeeForm">
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label for="inputName">Name</label>
+            <input type="text" class="form-control" id="inputName">
+        </div>
+        <div class="form-group col-md-6">
+            <label for="inputEmail">Email</label>
+            <input type="email" class="form-control" id="inputEmail">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="inputJP">Job Position</label>
+        <input type="text" class="form-control" id="inputJP">
+    </div>
+    <br />
+    <button type="submit" class="btn btn-primary">Add</button>
+</form>
+
+<br />
+<table class="table table-bordered" id="employeeTable">
+    <!-- Table structure -->
+    <thead class="thead-dark">
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Job Position</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody id="employeeTableBody">
+        <!-- Dynamic rows will be inserted here -->
+    </tbody>
+</table>

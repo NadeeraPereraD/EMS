@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GIT\\EMS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5E7B6908-D223-4890-9DAC-42DCD4EC1238}|EMS.Web\\EMS.Web.csproj|d:\\git\\ems\\ems.web\\pages\\workingdays.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E7B6908-D223-4890-9DAC-42DCD4EC1238}|EMS.Web\\EMS.Web.csproj|solutionrelative:ems.web\\pages\\workingdays.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E7B6908-D223-4890-9DAC-42DCD4EC1238}|EMS.Web\\EMS.Web.csproj|d:\\git\\ems\\ems.web\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E7B6908-D223-4890-9DAC-42DCD4EC1238}|EMS.Web\\EMS.Web.csproj|solutionrelative:ems.web\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E7B6908-D223-4890-9DAC-42DCD4EC1238}|EMS.Web\\EMS.Web.csproj|d:\\git\\ems\\ems.web\\pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E7B6908-D223-4890-9DAC-42DCD4EC1238}|EMS.Web\\EMS.Web.csproj|solutionrelative:ems.web\\pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E7B6908-D223-4890-9DAC-42DCD4EC1238}|EMS.Web\\EMS.Web.csproj|d:\\git\\ems\\ems.web\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E7B6908-D223-4890-9DAC-42DCD4EC1238}|EMS.Web\\EMS.Web.csproj|solutionrelative:ems.web\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E7B6908-D223-4890-9DAC-42DCD4EC1238}|EMS.Web\\EMS.Web.csproj|d:\\git\\ems\\ems.web\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E7B6908-D223-4890-9DAC-42DCD4EC1238}|EMS.Web\\EMS.Web.csproj|solutionrelative:ems.web\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E7B6908-D223-4890-9DAC-42DCD4EC1238}|EMS.Web\\EMS.Web.csproj|d:\\git\\ems\\ems.web\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E7B6908-D223-4890-9DAC-42DCD4EC1238}|EMS.Web\\EMS.Web.csproj|solutionrelative:ems.web\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E7B6908-D223-4890-9DAC-42DCD4EC1238}|EMS.Web\\EMS.Web.csproj|d:\\git\\ems\\ems.web\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5E7B6908-D223-4890-9DAC-42DCD4EC1238}|EMS.Web\\EMS.Web.csproj|solutionrelative:ems.web\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\GIT\\EMS\\EMS.Web\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "EMS.Web\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\GIT\\EMS\\EMS.Web\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "EMS.Web\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB8AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T15:03:41.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\GIT\\EMS\\EMS.Web\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "EMS.Web\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\GIT\\EMS\\EMS.Web\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "EMS.Web\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T15:03:40.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\GIT\\EMS\\EMS.Web\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "EMS.Web\\Pages\\_ViewImports.cshtml",
+              "ToolTip": "D:\\GIT\\EMS\\EMS.Web\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "EMS.Web\\Pages\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T15:03:38.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\GIT\\EMS\\EMS.Web\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "EMS.Web\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "D:\\GIT\\EMS\\EMS.Web\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "EMS.Web\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T15:03:35.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\GIT\\EMS\\EMS.Web\\Pages\\Error.cshtml",
+              "RelativeDocumentMoniker": "EMS.Web\\Pages\\Error.cshtml",
+              "ToolTip": "D:\\GIT\\EMS\\EMS.Web\\Pages\\Error.cshtml",
+              "RelativeToolTip": "EMS.Web\\Pages\\Error.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T15:03:33.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\GIT\\EMS\\EMS.Web\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "EMS.Web\\Pages\\Index.cshtml",
+              "ToolTip": "D:\\GIT\\EMS\\EMS.Web\\Pages\\Index.cshtml",
+              "RelativeToolTip": "EMS.Web\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T15:03:19.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WorkingDays.cshtml",
+              "DocumentMoniker": "D:\\GIT\\EMS\\EMS.Web\\Pages\\WorkingDays.cshtml",
+              "RelativeDocumentMoniker": "EMS.Web\\Pages\\WorkingDays.cshtml",
+              "ToolTip": "D:\\GIT\\EMS\\EMS.Web\\Pages\\WorkingDays.cshtml",
+              "RelativeToolTip": "EMS.Web\\Pages\\WorkingDays.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-15T14:59:52.461Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
